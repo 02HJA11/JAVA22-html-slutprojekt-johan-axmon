@@ -1,0 +1,32 @@
+.main-body{
+    border: solid 2px black;
+    height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.separator{
+    border: solid 2px greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+    width: 42rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 31rem;
+
+}
+
+.projects{
+    border: solid 2px yellow;
+    height: 15rem;
+    flex-basis: auto;
+    width: 20rem;
+}
+
+#image{
+    border: solid 2px black;
+}
