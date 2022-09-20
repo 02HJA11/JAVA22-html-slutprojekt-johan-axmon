@@ -1,14 +1,21 @@
+body{
+    background-color: beige;
+}
+
 .main-body{
     border: solid 2px black;
-    height: 45rem;
+    height: 48rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+
 
 }
 
-.separator{
+/* .separator{
     border: solid 2px greenyellow;
     display: flex;
     flex-wrap: wrap;
@@ -18,15 +25,31 @@
     align-items: flex-start;
     height: 31rem;
 
-}
+} */
 
 .projects{
     border: solid 2px yellow;
-    height: 15rem;
+    height: 10rem;
+    background-color: aqua;
     flex-basis: auto;
-    width: 20rem;
+    width: 45rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-#image{
+.images{
     border: solid 2px black;
+    height: 9.8rem;
+}
+
+#textone{
+    font-size: 20px;
+}
+
+.main-footer{
+    border: solid 2px black;
+    height: 3rem;
+    display: flex;
+    background-color: black;
 }
