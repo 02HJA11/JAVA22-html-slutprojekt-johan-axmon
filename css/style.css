@@ -19,6 +19,11 @@ body{
     height: 3rem;
     display: flex;
     background-color: black;
+    justify-content: space-evenly;
+}
+
+.bottom-text{
+    color: aliceblue;
 }
 
 /* Main page layout */
@@ -47,7 +52,8 @@ body{
 .main-divider{
     margin-top: 10%;
     height: 45rem;
-    background-color: blue;
+    background-color: thistle;
+    border: solid bisque 2px;
     width: 35rem;
     display: flex;
     flex-direction: column;
@@ -56,9 +62,9 @@ body{
 /* Project site specific */
 
 .project-section{
-    background-color: whitesmoke;
+    background-color: thistle;
     height: 15rem;
-    border: solid black 2px;
+    
 }
 
 .triple-image{
@@ -67,9 +73,26 @@ body{
 }
 
 .bottom-row{
-    background-color: aqua;
-    border: green solid 2px;
+    background-color: thistle;
+   
     width: 25rem;
 }
 
+.project-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-one-images{
+    display: flex;
+    justify-content: center;
+}
+
 /* information specific */
+
+.info-areas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
